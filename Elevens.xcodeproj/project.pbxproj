@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		3B0CA51A1C0F4A9100D46A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA5191C0F4A9100D46A80 /* AppDelegate.swift */; };
-		3B0CA51C1C0F4A9100D46A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA51B1C0F4A9100D46A80 /* ViewController.swift */; };
+		3B0CA51C1C0F4A9100D46A80 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA51B1C0F4A9100D46A80 /* MenuViewController.swift */; };
 		3B0CA51F1C0F4A9100D46A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CA51D1C0F4A9100D46A80 /* Main.storyboard */; };
 		3B0CA5211C0F4A9100D46A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CA5201C0F4A9100D46A80 /* Assets.xcassets */; };
 		3B0CA5241C0F4A9100D46A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0CA5221C0F4A9100D46A80 /* LaunchScreen.storyboard */; };
 		3B0CA52F1C0F4A9200D46A80 /* ElevensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA52E1C0F4A9200D46A80 /* ElevensTests.swift */; };
 		3B0CA53A1C0F4A9200D46A80 /* ElevensUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA5391C0F4A9200D46A80 /* ElevensUITests.swift */; };
+		3B0CA5481C0F582000D46A80 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA5471C0F582000D46A80 /* GameViewController.swift */; };
+		3B0CA54A1C0F63F800D46A80 /* RulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA5491C0F63F800D46A80 /* RulesViewController.swift */; };
+		3B0CA54C1C0F84E100D46A80 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA54B1C0F84E100D46A80 /* Card.swift */; };
+		3B0CA5501C10A31200D46A80 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA54F1C10A31200D46A80 /* Deck.swift */; };
+		3B0CA5521C10AED000D46A80 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0CA5511C10AED000D46A80 /* Board.swift */; };
+		3B1F0CC21C11EE82004DACE4 /* ElevensBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1F0CC11C11EE82004DACE4 /* ElevensBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		3B0CA5161C0F4A9100D46A80 /* Elevens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elevens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0CA5191C0F4A9100D46A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B0CA51B1C0F4A9100D46A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B0CA51B1C0F4A9100D46A80 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3B0CA51E1C0F4A9100D46A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B0CA5201C0F4A9100D46A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0CA5231C0F4A9100D46A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		3B0CA5351C0F4A9200D46A80 /* ElevensUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElevensUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0CA5391C0F4A9200D46A80 /* ElevensUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElevensUITests.swift; sourceTree = "<group>"; };
 		3B0CA53B1C0F4A9200D46A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0CA5471C0F582000D46A80 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3B0CA5491C0F63F800D46A80 /* RulesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesViewController.swift; sourceTree = "<group>"; };
+		3B0CA54B1C0F84E100D46A80 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3B0CA54F1C10A31200D46A80 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		3B0CA5511C10AED000D46A80 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		3B1F0CC11C11EE82004DACE4 /* ElevensBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElevensBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +109,18 @@
 		3B0CA5181C0F4A9100D46A80 /* Elevens */ = {
 			isa = PBXGroup;
 			children = (
-				3B0CA5191C0F4A9100D46A80 /* AppDelegate.swift */,
-				3B0CA51B1C0F4A9100D46A80 /* ViewController.swift */,
+				3B0CA51B1C0F4A9100D46A80 /* MenuViewController.swift */,
+				3B0CA5471C0F582000D46A80 /* GameViewController.swift */,
+				3B0CA5491C0F63F800D46A80 /* RulesViewController.swift */,
 				3B0CA51D1C0F4A9100D46A80 /* Main.storyboard */,
-				3B0CA5201C0F4A9100D46A80 /* Assets.xcassets */,
 				3B0CA5221C0F4A9100D46A80 /* LaunchScreen.storyboard */,
+				3B0CA54B1C0F84E100D46A80 /* Card.swift */,
+				3B0CA54F1C10A31200D46A80 /* Deck.swift */,
+				3B0CA5511C10AED000D46A80 /* Board.swift */,
+				3B1F0CC11C11EE82004DACE4 /* ElevensBoard.swift */,
 				3B0CA5251C0F4A9100D46A80 /* Info.plist */,
+				3B0CA5201C0F4A9100D46A80 /* Assets.xcassets */,
+				3B0CA5191C0F4A9100D46A80 /* AppDelegate.swift */,
 			);
 			path = Elevens;
 			sourceTree = "<group>";
@@ -259,8 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0CA51C1C0F4A9100D46A80 /* ViewController.swift in Sources */,
+				3B0CA5501C10A31200D46A80 /* Deck.swift in Sources */,
+				3B0CA51C1C0F4A9100D46A80 /* MenuViewController.swift in Sources */,
+				3B0CA5481C0F582000D46A80 /* GameViewController.swift in Sources */,
+				3B0CA54C1C0F84E100D46A80 /* Card.swift in Sources */,
+				3B0CA5521C10AED000D46A80 /* Board.swift in Sources */,
+				3B0CA54A1C0F63F800D46A80 /* RulesViewController.swift in Sources */,
 				3B0CA51A1C0F4A9100D46A80 /* AppDelegate.swift in Sources */,
+				3B1F0CC21C11EE82004DACE4 /* ElevensBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +430,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccross.Elevens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -417,6 +442,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ccross.Elevens;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -487,6 +513,7 @@
 				3B0CA5401C0F4A9200D46A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B0CA5411C0F4A9200D46A80 /* Build configuration list for PBXNativeTarget "ElevensTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +522,7 @@
 				3B0CA5431C0F4A9200D46A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B0CA5441C0F4A9200D46A80 /* Build configuration list for PBXNativeTarget "ElevensUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +531,7 @@
 				3B0CA5461C0F4A9200D46A80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
